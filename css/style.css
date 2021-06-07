@@ -7,6 +7,7 @@ body {
 :root {
   --text-title-color: #000;
   --text-description-color: #333;
+  --white-color: #fff;
   --title-font: "PT Serif", serif;
 }
 
@@ -14,13 +15,15 @@ body {
 
 .hero-section {
   margin: 0px auto 0px auto;
+  background-image: url(../images/hero/hero-bg.jpg);
+  height: 940px;
 }
 
 /* Topbar */
 
 .topbar {
   height: 80px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--white-color);
 }
 
 .topbar-container {
@@ -41,6 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
+  color: var(--white-color);
 }
 
 .logo-title {
@@ -70,8 +74,9 @@ body {
 }
 
 .form-button {
+  color: var(--white-color);
   height: 44px;
-  border: 1px solid #000;
+  border: 1px solid var(--white-color);
   border-radius: 22px;
   padding: 13px 30px 17px 30px;
   box-sizing: border-box;
