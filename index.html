@@ -5,40 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <body>
       <!-- Hero section -->
-      <section>
+      <section class="hero-section">
         <!-- Header -->
         <header>
           <!-- Topbar -->
-          <div>
-            <!-- Logo-->
-            <div>
-              <a href="index.html">
+          <div class="topbar">
+            <div class="topbar-container">
+              <!-- Logo-->
+              <a class="logo" href="index.html">
                 <img
                   src="./images/logo-icon.svg"
                   alt="logo-icon"
                   width="54px"
                 />
-                <p>Байкальський отдых</p>
-                <p>Турагентство</p>
+                <div class="logo-text">
+                  <p class="logo-title">Байкальський отдых</p>
+                  <p class="logo-description">Турагентство</p>
+                </div>
               </a>
-            </div>
-            <!-- Topbar contacts -->
-            <div>
-              <ul>
-                <li>
-                  <a href="tel:89243541540">8-924-3-541-540</a>
-                </li>
-                <li>
-                  <a href="mailto:baikalholiday@mail.ru" target="_blank"
-                    >baikalholiday@mail.ru</a
-                  >
-                </li>
-              </ul>
-              <button type="button">Оставить заявку</button>
+              <!-- Topbar contacts -->
+              <div class="topbar-contacts">
+                <ul class="topbar-contacts-list">
+                  <li class="topbar-contacts-list-item">
+                    <a href="tel:89243541540">8-924-3-541-540</a>
+                  </li>
+                  <li class="topbar-contacts-list-item">
+                    <a href="mailto:baikalholiday@mail.ru" target="_blank"
+                      >baikalholiday@mail.ru</a
+                    >
+                  </li>
+                </ul>
+                <button class="form-button" type="button">
+                  Оставить заявку
+                </button>
+              </div>
             </div>
           </div>
           <!-- Main menu -->
@@ -125,48 +140,49 @@
             </ul>
           </div>
         </div>
-      <!-- Footer second row container-->
-      <div>
-        <!-- Footer copyright container-->
+        <!-- Footer second row container-->
         <div>
-          <p>Турагентство «Байкальский отдых»</p>
-          <small>&copy; 2021. Все права защищены</small>
-        </div>
-        <!-- Footer zakaz turov container-->
-        <address>
+          <!-- Footer copyright container-->
           <div>
-            <p>Заказ туров и бронирование:</p>
-            <ul>
-              <li>
-                <a href="tel:89243541540">8-924-3-541-540</a>
-              </li>
-              <li>
-                <a href="mailto:baikalholiday@mail.ru" target="_blank"
-                  >baikalholiday@mail.ru</a
-                >
-              </li>
-            </ul>
+            <p>Турагентство «Байкальский отдых»</p>
+            <small>&copy; 2021. Все права защищены</small>
           </div>
-          <!-- Footer location container-->
+          <!-- Footer zakaz turov container-->
+          <address>
+            <div>
+              <p>Заказ туров и бронирование:</p>
+              <ul>
+                <li>
+                  <a href="tel:89243541540">8-924-3-541-540</a>
+                </li>
+                <li>
+                  <a href="mailto:baikalholiday@mail.ru" target="_blank"
+                    >baikalholiday@mail.ru</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Footer location container-->
+            <div>
+              <p>Адрес:</p>
+              <a href="#"
+                >г. Улан-Удэ, ул.Гражданская, 20, отель «Рестон», 1 этаж</a
+              >
+            </div>
+          </address>
+          <!-- Footer privacy policy container-->
           <div>
-            <p>Адрес:</p>
-            <a href="#"
-              >г. Улан-Удэ, ул.Гражданская, 20, отель «Рестон», 1 этаж</a
-            >
-          </div>
-        </address>
-        <!-- Footer privacy policy container-->
-        <div>
-          <a href="#">Политика конфиденциальности</a>
-          <!-- Footer privacy policy design logo container-->
-          <div>
-            <p>Дизайн</p>
-            <a href="#"> <img src="./images/lsn-design.png" width="53px" /></a>
+            <a href="#">Политика конфиденциальности</a>
+            <!-- Footer privacy policy design logo container-->
+            <div>
+              <p>Дизайн</p>
+              <a href="#">
+                <img src="./images/lsn-design.png" width="53px"
+              /></a>
+            </div>
           </div>
         </div>
       </div>
-    <
-      </div>
-     /footer>
+    </footer>
   </body>
 </html>

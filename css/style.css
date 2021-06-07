@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-title-color);
+}
+
+/* Variables */
+:root {
+  --text-title-color: #000;
+  --text-description-color: #333;
+  --title-font: "PT Serif", serif;
+}
+
+/* Hero Section */
+
+.hero-section {
+  margin: 0px auto 0px auto;
+}
+
+/* Topbar */
+
+.topbar {
+  height: 80px;
+  border-bottom: 1px solid #000;
+}
+
+.topbar-container {
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto 0px auto;
+}
+
+.logo {
+  display: flex;
+  padding: 13px 0px 13px 0px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.logo-title {
+  margin: 0px 0px 5px 0px;
+}
+
+.logo-description {
+  margin: 0px;
+}
+
+.topbar-contacts {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-contacts-list {
+  display: flex;
+  list-style: none;
+}
+
+.topbar-contacts-list-item {
+  margin: 0px 35px 0px 0px;
+}
+
+.topbar-contacts-list-item:last-child {
+  margin-right: 45px;
+}
+
+.form-button {
+  height: 44px;
+  border: 1px solid #000;
+  border-radius: 22px;
+  padding: 13px 30px 17px 30px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+/* Hero content */
+
+h1 {
+  font-family: var(--title-font);
+}
